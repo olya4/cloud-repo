@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.geekbrains.netty.ChatController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ListView fx:id="listView" layoutX="21.0" layoutY="21.0" prefHeight="436.0" prefWidth="312.0"/>
+        <TextField fx:id="input" layoutX="21.0" layoutY="457.0" onAction="#sendMessage" prefHeight="46.0"
+                   prefWidth="312.0"/>
+    </children>
+
+</AnchorPane>
