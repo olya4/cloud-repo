@@ -1,0 +1,6 @@
+com\geekbrains\model\FileMessage.class
+com\geekbrains\model\FileRequest.class
+com\geekbrains\model\AbstractMessage.class
+com\geekbrains\model\CommandType.class
+com\geekbrains\model\ListMessage.class
+com\geekbrains\model\FileMessage$FileMessageBuilder.class
